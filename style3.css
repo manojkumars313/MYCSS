@@ -1,0 +1,46 @@
+h1{
+    color:red;
+
+}
+h2{
+    color:red;
+    font-style: italic;
+
+}
+.div{
+    color:brown;
+    line-height :2em;
+   
+}
+.span1{
+    text-decoration: line-through;
+}
+.span2{
+    background-color: gold;
+}
+    .span3{
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+    .div2{
+        letter-spacing: 5px;
+        color:brown;
+        line-height :2em;
+    }
+
+    .span4{
+        background-color: gold;
+    }
+
+    .div3{
+        color:brown;
+    }
+    .a{
+        text-decoration: none;
+        background-color: gold;
+        font-style: italic;
+        color:red;
+        font-weight: 300;
+
+    }
