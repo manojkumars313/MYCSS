@@ -1,0 +1,228 @@
+body{
+    background-color: rgb(96 110 123);
+}
+.parent{
+    background-color: rgb(96 110 123);
+    height:2000px;
+    position: relative;
+}
+.flexbox1{
+    justify-content: center;
+    border: 10px solid #1a1b1ae3;
+    width:400px;
+    height: 130px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-style: oblique;
+    color: #ee0c0c;;
+    font-weight:bold ;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    left: 540px;
+    box-shadow: 5px 5px 8px  #00feff;;
+    text-shadow: red;
+
+}
+
+.span1{
+    position: relative;
+    top:200px
+    
+}
+.span2{
+    position: relative;
+    top:201px
+    
+}
+
+.box2{
+    border: 10px solid #0e540ee3;
+    width:1500px;
+    height:1000px;
+    top:230px;
+   
+    position:absolute;
+}
+
+.child1{
+    border: 10px solid #1a1b1ae3;
+    width:300px;
+    height: 250px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-style: normal;
+    color:chocolate;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 8px blue;
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    text-shadow: 0 0 3px #f5080800, 0 0 5px #1f1a1a;
+
+}
+.child2{
+    border: 10px solid #1a1b1ae3;
+    width:300px;
+    height: 250px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-style: normal;
+    color:chocolate;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 8px blue;
+    position: absolute;
+    top: 920px;
+    left: 20px;
+    text-shadow: 0 0 3px #f5080800, 0 0 5px #1f1a1a;
+}
+
+.child3{
+    border: 10px solid #1a1b1ae3;
+    width:300px;
+    height: 250px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-style: normal;
+    color:chocolate;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 8px blue;
+    position: absolute;
+    top: 270px;
+   right: 20px;
+   text-shadow: 0 0 3px #f5080800, 0 0 5px #1f1a1a;
+
+   
+  
+
+   background-size:contain ;
+  
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.img{
+    width:200px
+}
+
+.child4{
+    border: 10px solid #1a1b1ae3;
+    width:300px;
+    height: 250px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-style: normal;
+    color:chocolate;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 8px blue;
+    position: absolute;
+    top: 920px;
+    right: 20px;
+    text-shadow: 0 0 3px #f5080800, 0 0 5px #1f1a1a;
+}
+.letter{
+    font-size: 16px;
+}
+ 
+
+.box7{
+    border: 10px solid #0e540ee3;
+    width:935px;
+    height:620px;
+    top:1300px;
+    left:300px;
+   
+    position:absolute;
+    text-align: center;
+    background-color: #faffcb;
+    font-size: 30px;
+    font-weight: bold;
+   
+
+}
+
+.child5{
+    border: 10px #1a1b1ae3;
+    width: 450px;
+    height: 250px;
+    /* border-radius: 30px; */
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    background-color: #889d7b;
+    /* box-shadow: 5px 5px 8px blue; */
+    position: absolute;
+    top: 1410px;
+    left: 320px;
+
+}
+
+.child6{
+    border: 10px #1a1b1ae3;
+    width: 450px;
+    height: 250px;
+    /* border-radius: 30px; */
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    background-color: #889d7b;
+    /* box-shadow: 5px 5px 8px blue; */
+    position: absolute;
+    top: 1410px;
+    right: 290px;
+
+}
+.letter2{
+    font-weight: bold;
+}
+
+.child8{
+    border: 10px #1a1b1ae3;
+    width: 940px;
+    height: 250px;
+    /* border-radius: 30px; */
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    background-color: #889d7b;
+    /* box-shadow: 5px 5px 8px blue; */
+    position: absolute;
+    top: 1670px;
+    right: 260px;
+
+}
+
+.fixed{
+    border: 10px solid #f30cb5e3;
+    width:500px;
+    height: 110px;
+    border-radius: 30px;
+    left:495px;
+position:fixed;
+bottom: 100px;
+background-color:  #75ff1b;
+
+box-shadow: 5px 5px 8px blue;
+}
+.max1{
+    font-size: 25px;
+    font-style: italic;
+    color: crimson;
+    text-align: center;
+    
+}
+
+.max2{
+    font-size: 15px;
+    font-style: italic;
+    color: crimson;
+    text-align:left bottom;
+    float: right;
+}
