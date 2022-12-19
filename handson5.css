@@ -1,0 +1,403 @@
+body {
+  background-color: #ffff00ab;
+  margin: 0px;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: #ffff00ab;
+}
+
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 70%;
+
+  margin: auto;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 80px;
+}
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 160px;
+}
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 240px;
+}
+.square {
+  background: #8ca1f0c7;
+
+  height: 100px;
+  margin: 100px;
+  left: 350px;
+  position: relative;
+  width: 100px;
+  margin: 20px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.square2 {
+  background: #271066ba;
+
+  height: 100px;
+  margin: 100px;
+  left: 350px;
+  position: relative;
+  width: 100px;
+  margin: 20px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.square5 {
+  background: #8ca1f0;
+  border: 3px solid #6077cf;
+  height: 100px;
+  margin: 100px;
+  left: 350px;
+  position: relative;
+  width: 100px;
+  margin: 20px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.square4 {
+  background: brown;
+  border: 3px solid#c3a6a6;
+  height: 100px;
+  margin: 100px;
+  left: 350px;
+  position: relative;
+  width: 100px;
+  margin: 20px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.square6 {
+  background: green;
+  border: 3px solid #c5e6c5;
+  height: 100px;
+  margin: 100px;
+  left: 350px;
+  position: relative;
+  width: 100px;
+  margin: 20px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+@keyframes bounce {
+  0% {
+    transform: skewx(20deg);
+  }
+  100% {
+    transform: skewx(-20deg);
+  }
+}
+
+.bounce2 {
+  animation-name: bounce2;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+@keyframes bounce2 {
+  0% {
+    transform: skewy(20deg);
+  }
+  100% {
+    transform: skewy(-20deg);
+  }
+}
+.bounce3 {
+  animation-name: bounce3;
+  animation-timing-function: ease;
+}
+@keyframes bounce3 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.bounce4 {
+  animation-name: bounce4;
+  animation-timing-function: ease;
+}
+@keyframes bounce4 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: scaleX(0.5);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+.bounce5 {
+  animation-name: bounce5;
+  animation-timing-function: ease;
+}
+@keyframes bounce5 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: scaleY(0.5);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.bounce6 {
+  animation-name: bounce6;
+  animation-timing-function: ease;
+}
+@keyframes bounce6 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.num {
+  position: relative;
+  top: 120px;
+  left: 300px;
+}
+.num2 {
+  position: relative;
+  top: 120px;
+  left: 300px;
+}
+.num3 {
+  position: relative;
+  top: 120px;
+  left: 300px;
+}
+.num4 {
+  position: relative;
+  top: 120px;
+  left: 300px;
+}
+
+/* LINK TO OTHER PAGE */
+
+a {
+  font-size: 30px;
+  position: relative;
+
+  top: 310px;
+  left: 640px;
+}
+
+/* FILE 2 */
+
+.a2 {
+  font-size: 30px;
+  position: relative;
+
+  top: 10px;
+  left: 640px;
+}
+
+.num11 {
+  position: relative;
+  top: 31px;
+  left: -20px;
+}
+.container8 {
+  display: grid;
+  grid-template-columns: auto;
+  width: 20%;
+  margin: auto;
+}
+
+.box {
+  border: 1px solid transparent;
+  width: 100px;
+  height: 100px;
+  background-color: #228a1ba6;
+  transition: width 1s, height 1s;
+  margin: 10px;
+}
+
+.div1:hover {
+  width: 300px;
+  transition-duration: 2s;
+}
+.div11:hover {
+  width: 250px;
+  height: 250px;
+  transition-duration: 2s;
+}
+.div2:hover {
+  width: 300px;
+  transition-duration: 2s;
+}
+.div3:hover {
+  width: 300px;
+  transition-duration: 2s;
+}
+.div4:hover {
+  width: 300px;
+  transition-duration: 2s;
+}
+.div5:hover {
+  width: 300px;
+  transition-duration: 2s;
+}
+
+.div1 {
+  transition-timing-function: linear;
+}
+.div11 {
+  transition-timing-function: linear;
+}
+
+.div2 {
+  transition-timing-function: ease;
+}
+.div3 {
+  transition-timing-function: ease-in;
+}
+.div4 {
+  transition-timing-function: ease-out;
+}
+.div5 {
+  transition-timing-function: ease-in-out;
+}
+
+/* CAR */
+
+.car24 {
+  width: 100%;
+  /* background-image: url(sky.jpg); */
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.road {
+  height: 300px;
+  width: 500%;
+  display: block;
+  /* background-image: url(road.jpg); */
+  background-repeat: repeat-x;
+  animation: demo3 10s linear infinite;
+  position: relative;
+  top: -890px;
+}
+
+.city {
+  height: 300px;
+  width: 500%;
+  display: block;
+  background-image: url(city.png);
+  background-repeat: repeat-x;
+  animation: city 50s linear infinite;
+  position: relative;
+  top: -820px;
+  filter: contrast(150%);
+}
+
+@keyframes city {
+  100% {
+    transform: translateX(-3400px);
+  }
+}
+@keyframes demo3 {
+  100% {
+    transform: translateX(-3400px);
+  }
+}
+.sun {
+  position: absolute;
+  top: 100px;
+  left: 1200px;
+  background-repeat: repeat-x;
+  animation: demo3 1000s linear infinite;
+}
+.flag {
+  position: absolute;
+  top: 440px;
+  left: 670px;
+  background-repeat: repeat-x;
+}
+.car {
+  position: absolute;
+  top: px;
+  left: px;
+  top: 450px;
+  height: 200px;
+  left: 400px;
+}
+.wheel {
+  position: absolute;
+  top: 560px;
+  width: 70px;
+  left: 435px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.wheel2 {
+  position: absolute;
+  top: 560px;
+  width: 70px;
+  left: 680px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.rotate {
+  animation-name: rotate;
+  animation-timing-function: linear;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+h1 {
+  position: absolute;
+  top: 10px;
+
+  left: 600px;
+}
+.happy {
+  background-color: orange;
+}
+.ind {
+  background-color: rgb(243, 243, 243);
+}
+.day {
+  background-color: green;
+}
